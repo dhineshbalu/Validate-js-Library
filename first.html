@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first validation</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+         <form class="validateForm">
+               <div class="validateInput">
+                     <input class="validate validateFormName" id="firstname" type="text" name="username" placeholder="Enter ur name" />
+                </div>
+                 
+                <div class="validateInput">
+                     <input class="validate validateFormPassword" id="password1" type="password" placeholder="Enter ur password"/>
+                 </div>
+               
+                <div class="validateInput">
+                    <input class="validate validateFormEmail" id="email1" type="email" placeholder="Enter ur emailID"/>
+                </div>
+    
+                 <div class="validateInput" id="checkPh">
+                  <input type="text" value="IN"  class="country_code" id="country_code" />
+                  <input class="validate validateFormNumber" id="number" type="number" placeholder="Enter ur phone number"/>
+                </div>
+               
+                <div class="validateInput" id="checkZip">
+                        <input type="text"  class="zip_code" id="zip_code" />
+                        <input class="validate validateFormZipCode" id="zipCode" type="text" placeholder="Enter ur zipcode"/>
+                </div> 
+
+                 <div class="validateInput">
+                      <input type="text" class="validate validateFormDate" id="date" placeholder="Enter ur date"/>
+                 </div>
+
+                 <div class="validateInput">
+                     <input type="file" class="validate validateFormFile" id="file" placeholder="Please select the file"/>
+                 </div>
+
+                 <div class="validateInput">
+                   <input type="number" class="validate validateFormCreditCard" id="card" placeholder="Enter ur card no."/>
+                 </div>
+
+               <div class="validateInput">
+                     <input type="text" class="validate validateFormTime" id="time" placeholder="Enter ur time"/>
+               </div>
+
+               <input type="submit" value="submit" class="validateSubmit"/>
+         </form>  
+         
+         
+        <script src="./validate.js"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+
+.displayBox {
+    white-space: nowrap;
+    margin-top: 2px;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rating-box {
+  color: #00e600;
+  text-shadow: 0px 1px 10px rgba(0, 0, 0, 1);
+  margin: 3rem auto;
+  height: 3rem;
+  width: 25rem;
+}
+
+.rating-star{
+  font-size: 1.3rem;
+  width: 1rem;
+  height: 2rem;
+  padding: 0 2rem;
+  position: relative;
+  display: block;
+  float:left;
+}
+
+.full-star:before {
+  color: #00e600;
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.empty-star:before {
+    color: red;
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.select-star:before {
+    color: black;
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.validateFormName ,.validateFormPassword,.validateFormEmail,.validateFormNumber,.validateFormZipCode,.validateFormDate,.validateFormCreditCard,.validateFormTime{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.country_code ,.zip_code{
+  width: 5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.valid {
+  border: 3px solid #00e600
+}
+.invalid {
+  border: 3px solid red
+}
+.validateInput:after {
+  content:"\a \a";
+  white-space: pre;
+}
+
+
+.validateSubmit::before {
+  content:"\a \a";
+  white-space: pre;
+} 
+.validateSubmit {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 40px;
+    width: 75px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    border-radius: 10%;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+.validateFormFile {
+  margin-top:10px;
+  cursor: pointer;
+  width: 180px;
+  height: 34px;
+  overflow: hidden;
+}
+
+.validateFormFile:before {
+  width: 158px;
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  content: 'Select your file';
+  letter-spacing: 2px;
+  display: inline-block;
+  background: white;
+  font-weight: bold;
+  padding: 0 10px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.validateFormFile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.validateSubmit {
+  
+}
+
+
+
+  
