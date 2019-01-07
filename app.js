@@ -33,9 +33,6 @@ new validateForm({
 new validateForm({
       'target': document.querySelector('#email1')
 })
-new validateForm({
-      'target': document.querySelector('#email2')
-})
 
 new validateForm({
      'target': document.querySelector('#checkPh')
