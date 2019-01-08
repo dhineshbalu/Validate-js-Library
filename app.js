@@ -44,7 +44,7 @@ new validateForm({
      'target': document.querySelector('#date'),
      'format':'dd/mm/yyyy',
      'dateBetween':'1/12/1997-10/12/1997',
-      'dateAfter': '12/12/1997'
+      'dateAfter': '12/12/1997',
      'dateBefore': '12/12/1997'
 })
 new validateForm({
